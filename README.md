@@ -19,7 +19,7 @@ kro is Kubernetes native and integrates seamlessly with existing tools to preser
 | <a href="https://kro.run/docs/getting-started/deploy-a-resource-graph-definition" target="_blank" rel="noopener noreferrer">Getting started</a> | Deploy your first ResourceGraphDefinition |
 | <a href="https://kro.run/docs/concepts/resource-group-definitions" target="_blank" rel="noopener noreferrer">Concepts</a> | Learn more about kro concepts   |
 | <a href="https://kro.run/examples/" target="_blank" rel="noopener noreferrer">Examples</a> | Example resources               |
-| <a href="./CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Contributions</a> | How to get involved  
+| <a href="https://github.com/kro-run/kro/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Contributions</a> | How to get involved  
 
 ## FAQ
 
@@ -77,8 +77,8 @@ Please join our community meeting.
 
 ## Security
 
-See <a href="./CONTRIBUTING.md#security-issue-notifications" target="_blank" rel="noopener noreferrer">CONTRIBUTING</a> for more information.
+See <a href="https://github.com/kro-run/kro/blob/main/CONTRIBUTING.md#security-issue-notifications" target="_blank" rel="noopener noreferrer">CONTRIBUTING</a> for more information.
 
 ## License
 
-<a href="./LICENSE" target="_blank" rel="noopener noreferrer">Apache 2.0</a>
+<a href="https://github.com/kro-run/kro/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">Apache 2.0</a>
