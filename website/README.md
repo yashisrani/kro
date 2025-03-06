@@ -3,12 +3,28 @@
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
+Use `npm` or `yarn` to setup and test website on local environment.
+
+if you are using `npm`, then use below command to install all required dependencies.
+
+```
+$ npm install 
+```
+
+If you are using `yarn`, use:
 
 ```
 $ yarn
 ```
 
 ### Local Development
+
+To start a local development server, use:
+
+```
+$ npm run start
+```
+or use:
 
 ```
 $ yarn start
@@ -17,6 +33,13 @@ $ yarn start
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
+
+To generate static content for deployment, use:
+
+```
+$ npm run build
+```
+ or use:
 
 ```
 $ yarn build
@@ -27,6 +50,12 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 Using SSH:
+
+```
+$ USE_SSH=true npm run deploy
+```
+
+or use:
 
 ```
 $ USE_SSH=true yarn deploy
