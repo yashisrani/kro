@@ -162,7 +162,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: "kro.run",
+      copyright: `© ${new Date().getFullYear()} Kro.run`,
     },
     /* announcementBar: {
       id: `beta announcement`,
