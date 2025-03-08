@@ -3,7 +3,7 @@
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
-Use `npm` or `yarn` to setup and test website on local environment.
+If you're using other tools than `npm`, you can refer to the `docusaurs documentation` for build and installation https://docusaurus.io/docs/installation#build
 
 if you are using `npm`, then use below command to install all required dependencies.
 
