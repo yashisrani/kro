@@ -5,26 +5,14 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 ### Installation
 If you're using other tools than `npm`, you can refer to the `docusaurs documentation` for build and installation https://docusaurus.io/docs/installation#build
 
-if you are using `npm`, then use below command to install all required dependencies.
-
-```
-$ npm install 
-```
-
 If you are using `yarn`, use:
 
 ```
 $ yarn
 ```
-
 ### Local Development
 
 To start a local development server, use:
-
-```
-$ npm run start
-```
-or use:
 
 ```
 $ yarn start
@@ -37,11 +25,6 @@ This command starts a local development server and opens up a browser window. Mo
 To generate static content for deployment, use:
 
 ```
-$ npm run build
-```
- or use:
-
-```
 $ yarn build
 ```
 
@@ -50,12 +33,6 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 Using SSH:
-
-```
-$ USE_SSH=true npm run deploy
-```
-
-or use:
 
 ```
 $ USE_SSH=true yarn deploy
