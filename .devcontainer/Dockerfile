@@ -1,4 +1,4 @@
-FROM golang:1.21-bullseye
+FROM golang:1.24.0-bullseye
 
 # Install necessary packages
 RUN apt-get update && apt-get install -y \
@@ -39,8 +39,8 @@ USER $USERNAME
 
 # Install Go tools
 RUN go install golang.org/x/tools/gopls@v0.14.2 \
-    && go install github.com/go-delve/delve/cmd/dlv@v1.21.0 \
-    && go install honnef.co/go/tools/cmd/staticcheck@v0.4.3 \
-    && go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.54.2
+    && go install github.com/go-delve/delve/cmd/dlv@v1.22.1 \
+    && go install honnef.co/go/tools/cmd/staticcheck@v0.4.6 \
+    && go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.55.2
 
 WORKDIR /workspace
